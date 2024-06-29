@@ -32,7 +32,7 @@ public class ProgressCanvasView extends View {
         paint = new Paint();
         paint.setStrokeWidth(5);
         paint.setStyle(Paint.Style.FILL_AND_STROKE);
-        arrowSpacing = -120; // Ajusta este valor según lo que desees
+        arrowSpacing = -120; 
     }
 
     public void advanceProgress() {
